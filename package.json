@@ -1,0 +1,17 @@
+{
+  "name": "ancient-realms-server",
+  "version": "1.0.0",
+  "description": "Ancient Realms 3D RPG - multiplayer server (Socket.io)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "socket.io": "^4.7.5"
+  },
+  "license": "MIT"
+}
